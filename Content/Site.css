@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     gap: 2rem;
     padding: 1rem;
+    justify-content: center;
 }
 
 .CartWrapper {
@@ -21,6 +22,16 @@
     background-color: #E3E6E6;
 }
 
+.HomeCardBottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.HomeCardText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 
 .ClearButton {
