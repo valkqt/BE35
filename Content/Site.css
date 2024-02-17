@@ -1,0 +1,187 @@
+﻿.HomeWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.CartWrapper {
+    height: calc(100vh - 57px);
+    padding: 1rem;
+}
+
+
+.DetailsWrapper {
+    height: calc(100vh - 57px);
+    padding-top: 2rem;
+    color:#CCCCCC;
+}
+
+.silver {
+    background-color: #E3E6E6;
+}
+
+
+
+.ClearButton {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 45px;
+    margin-top: 1rem;
+    background-color: #FEF899;
+}
+
+.navSilver {
+    background-color: #626262;
+}
+
+.cartButton {
+    color: white;
+}
+
+    .cartButton:hover {
+        color: #FEF899;
+        transform: scale(1.2);
+        transition: transform 0.2s linear, color 0.2s linear;
+    }
+
+
+
+
+.cardSilver {
+    background-color: #626262;
+    border: 1px solid black;
+}
+
+.detailsSilver {
+    background-color: #E3E6E6;
+    border: 1px solid black;
+}
+
+.DetailsOuterContainer {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #626262;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+
+.cardSilver:hover {
+    transform: scale(1.1);
+    transition: transform 0.15s linear;
+    color: #FEF899;
+}
+
+.svghover:hover {
+    color: white;
+}
+
+.Text {
+    display: block;
+    color:#CCCCCC;
+}
+
+.bigText {
+    font-size: 1.5rem;
+}
+
+.DetailsContainer {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.CustomButton {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 45px;
+    margin-top: 1rem;
+    flex-basis: 100%;
+    background-color: #FEF899;
+}
+
+.CustomImage {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+}
+
+.DetailImage {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+
+.CustomCard {
+    height: 450px;
+}
+
+
+* {
+    font-family: "Lato", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
+
+
+.EmptyCart {
+    color: #626262;
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+}
+
+
+.CartImage {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.CartContainer {
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #626262;
+    margin-bottom: 1rem;
+}
+
+.CartImageFlex {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.CardAreaBox {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.linkFlex {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+.CartCards {
+    display: flex;
+    gap: 1rem;
+}
